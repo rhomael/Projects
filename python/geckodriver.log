@@ -1,0 +1,27 @@
+1696077899312	geckodriver	INFO	Listening on 127.0.0.1:57507
+1696077899319	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "55731" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4s8r3A"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1696077900830	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1696077901021	Marionette	INFO	Listening on port 44237
+WebDriver BiDi listening on ws://127.0.0.1:55731
+Read port: 44237
+1696077901488	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:55731/devtools/browser/a7218b3e-47ec-477f-adb8-b29340ed7136
+JavaScript warning: https://ralpnet.sgp.net.br/static/all/js/jquery-3.3.1.min.js, line 2: Script terminated by timeout at:
+oe.tokenize@https://ralpnet.sgp.net.br/static/all/js/jquery-3.3.1.min.js:2:18782
+oe.compile@https://ralpnet.sgp.net.br/static/all/js/jquery-3.3.1.min.js:2:21656
+oe.select@https://ralpnet.sgp.net.br/static/all/js/jquery-3.3.1.min.js:2:22351
+oe@https://ralpnet.sgp.net.br/static/all/js/jquery-3.3.1.min.js:2:6808
+handlers@https://ralpnet.sgp.net.br/static/all/js/jquery-3.3.1.min.js:2:42234
+dispatch@https://ralpnet.sgp.net.br/static/all/js/jquery-3.3.1.min.js:2:41477
+add/y.handle@https://ralpnet.sgp.net.br/static/all/js/jquery-3.3.1.min.js:2:39791
+trigger@https://ralpnet.sgp.net.br/static/all/js/jquery-3.3.1.min.js:2:69551
+simulate@https://ralpnet.sgp.net.br/static/all/js/jquery-3.3.1.min.js:2:70054
+n@https://ralpnet.sgp.net.br/static/all/js/jquery-3.3.1.min.js:2:70343
+
+1696077923506	Marionette	INFO	Stopped listening on port 44237
+1696077930022	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
