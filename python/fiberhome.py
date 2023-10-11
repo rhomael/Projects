@@ -2,12 +2,11 @@ import telnetlib
 import time
 import re
 
-# Dados de login da OLT Fiberhome 🔑
-usuario = "GEPON"
-port = "23"
-#port = "5023" #PORTA DE ACESSO OLT FIBERHOME CONECTA
-senha = "admin1!"
-senha_enable = "admin1!"
+# Solicitar ao usuário que insira as informações de login 🔑
+usuario = input("Insira o nome de usuário da OLT: ")
+senha = input("Insira a senha da OLT: ")
+port = input("Insira a porta de acesso da OLT (default: 23): ") or "23"
+senha_enable = input("Insira a senha enable da OLT: ")
 
 # Endereços IP e seus respectivos nomes pré-definidos da OLT Fiberhome
 enderecos_ip = {

@@ -1,11 +1,10 @@
 import telnetlib
 import time
 
-# Dados de login da OLT ZTE 🔑
-usuario = "zte"
-port = "23"
-senha = "Cdp#@!2020"  # Senha OLT ZTE PALMEIRANDIA
-#senha = "Cdp#@!2023" # Senha OLT ZTE PARAISO
+# Solicitar ao usuário que insira as informações de login 🔑
+usuario = input("Insira o nome de usuário da OLT: ")
+senha = input("Insira a senha da OLT: ")
+port = input("Insira a porta de acesso da OLT (default: 23): ") or "23"
 
 # Endereços IP e seus respectivos nomes pré-definidos da OLT ZTE
 enderecos_ip = { 
@@ -67,7 +66,7 @@ print(output)
 # Função para executar comandos e  mostrar saída
 def executar_comando(tn, comando):
     tn.write(comando.encode('ascii') + b"\n")
-    time.sleep(0.5)
+    time.sleep(1)
     output = tn.read_very_eager().decode('ascii')
     print(output)
 

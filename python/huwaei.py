@@ -1,14 +1,16 @@
 import telnetlib
 import time
 
-# Dados de login da OLT Huawei 🔑
-usuario = "RHOMAEL"
+# Solicitar ao usuário que insira as informações de login 🔑
+usuario = input("Insira o nome de usuário da OLT: ")
+senha = input("Insira a senha da OLT: ")
+port = input("Insira a porta de acesso da OLT (default: 23): ") or "23"
 #port = "23"  # PORTA TELNET OLT MIRINZAL
 #port = "4020"  # PORTA TELNET OLT FIALHO
-port = "4030"  # PORTA TELNET OLT COHAB
+#port = "4030"  # PORTA TELNET OLT COHAB
 #port = "4940"  # PORTA TELNET OLT ITAPECURU
 #port = "4950"  # PORTA TELNET OLT SANTA HELENA
-senha = "PwdRho1020301!"
+senha_enable = input("Insira a senha enable da OLT: ")
 
 # Endereços IP e seus respectivos nomes pré-definidos da OLT Huawei
 enderecos_ip = {

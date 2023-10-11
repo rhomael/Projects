@@ -1,10 +1,11 @@
 import telnetlib
 import time
 
-# Dados de login da OLT Intelbras 🔑
-usuario = "admin"
-port = "23"
-senha = "ralp#@!2020"
+# Solicitar ao usuário que insira as informações de login 🔑
+usuario = input("Insira o nome de usuário da OLT: ")
+senha = input("Insira a senha da OLT: ")
+port = input("Insira a porta de acesso da OLT (default: 23): ") or "23"
+senha_enable = input("Insira a senha enable da OLT: ")
 
 # Endereços IP e seus respectivos nomes pré-definidos da OLT Intelbras
 enderecos_ip = {
