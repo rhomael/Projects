@@ -15,9 +15,9 @@ sleep(1)
 campo_usuario = driver.find_element(By.XPATH,"//input[@id='id_username']")
 campo_senha = driver.find_element(By.XPATH,"//input[@id='inlineFormInputGroup']")
 
-campo_usuario.send_keys('rhomael')  # Inserir o nome de usuário
+campo_usuario.send_keys('usuario')  # Inserir o nome de usuário
 sleep(1) 
-campo_senha.send_keys('roma!125')  # Inserir a senha
+campo_senha.send_keys('senha')  # Inserir a senha
 sleep(1)
 
 # Enviar formulário
