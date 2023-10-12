@@ -17,7 +17,7 @@ enderecos_ip = {
     "🖥  OLT HUWAEI ITAPECURU ➡": "45.181.228.67",
     "🖥  OLT HUWAEI FIALHO ➡": "186.216.11.0",
     "🖥  OLT HUAWEI MIRINZAL ➡": "172.31.198.2",
-    "🖥  OLT HUWAEI SANTA_HELENA ➡": "45.181.230.29"
+    "🖥  OLT HUWAEI SANTA HELENA ➡": "45.181.230.29"
 }
 
 # Mostra os endereços IP disponíveis
