@@ -10,7 +10,6 @@ port = input("Insira a porta de acesso da OLT (default: 23): ") or "23"
 #port = "4030"  # PORTA TELNET OLT COHAB
 #port = "4940"  # PORTA TELNET OLT ITAPECURU
 #port = "4950"  # PORTA TELNET OLT SANTA HELENA
-senha_enable = input("Insira a senha enable da OLT: ")
 
 # Endereços IP e seus respectivos nomes pré-definidos da OLT Huawei
 enderecos_ip = {
