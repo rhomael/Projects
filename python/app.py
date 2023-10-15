@@ -4,10 +4,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 from time import sleep
 
-# Entrar no site do SGP: https://ralpnet.sgp.net.br/accounts/login
+# Entrar no site para o login:
 
 driver = webdriver.Firefox()
-driver.get('https://ralpnet.sgp.net.br/accounts/login')
+driver.get('https://link.com.br/account')  # Inserir a url do site para o login
 sleep(1)
 
 # Digitar usuário e senha
