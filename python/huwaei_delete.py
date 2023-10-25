@@ -16,7 +16,7 @@ enderecos_ip = {
     "🖥  OLT HUWAEI COHAB ➡": "186.216.11.0",
     "🖥  OLT HUWAEI ITAPECURU ➡": "45.181.228.67",
     "🖥  OLT HUWAEI FIALHO ➡": "186.216.11.0",
-    "🖥  OLT HUAWEI MIRINZAL ➡": "172.31.198.2",
+    "🖥  OLT HUAWEI MIRINZAL ➡": "172.31.238.2",
     "🖥  OLT HUWAEI SANTA HELENA ➡": "45.181.230.29"
 }
 
