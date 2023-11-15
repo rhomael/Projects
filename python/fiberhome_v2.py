@@ -14,6 +14,7 @@ enderecos_ip = {
     "🖥  OLT SÃO LUIS ➡": "172.30.247.100",
     "🖥  OLT SAO BENTO ➡": "172.31.254.2",
     "🖥  OLT TURIACU ➡": "172.31.200.254",
+    "🖥  OLT VILA DA PAZ ➡": "172.31.187.2",
     "🖥  OLT SANTA HELENA ➡": "172.30.253.254",
     "🖥  OLT PEDRO DO ROSARIO ➡": "172.31.246.2",
     "🖥  OLT PACAS ➡": "172.31.191.2",
