@@ -9,7 +9,8 @@ port = input("Insira a porta de acesso da OLT (default: 23): ") or "23"
 # Endereços IP e seus respectivos nomes pré-definidos da OLT Intelbras
 enderecos_ip = {
     "🖥  OLT INTELBRAS BOM_VIVER ➡": "172.31.248.2",
-    "🖥  OLT INTELBRAS FORTALEZA ➡": "172.31.194.2"
+    "🖥  OLT INTELBRAS FORTALEZA ➡": "172.31.194.2",
+    "🖥  OLT INTELBRAS 3 FUROS ➡": "172.31.195.2"
 }
 
 # Mostra os endereços IP disponíveis
