@@ -6,6 +6,7 @@ usuario = input("Insira o nome de usuário da OLT: ")
 senha = input("Insira a senha da OLT: ")
 port = input("Insira a porta de acesso da OLT (default: 23): ") or "23"
 #port = "23"  # PORTA TELNET OLT MIRINZAL
+#port = "23"  # PORTA TELNET OLT PINHEIRO
 #port = "4020"  # PORTA TELNET OLT FIALHO
 #port = "4030"  # PORTA TELNET OLT COHAB
 #port = "4940"  # PORTA TELNET OLT ITAPECURU
@@ -16,6 +17,7 @@ enderecos_ip = {
     "🖥  OLT HUWAEI COHAB ➡": "186.216.11.0",
     "🖥  OLT HUWAEI ITAPECURU ➡": "45.181.228.67",
     "🖥  OLT HUWAEI FIALHO ➡": "186.216.11.0",
+    "🖥  OLT HUWAEI PINHEIRO ➡": "172.31.237.2",
     "🖥  OLT HUAWEI MIRINZAL ➡": "172.31.238.2",
     "🖥  OLT HUWAEI SANTA HELENA ➡": "45.181.230.29"
 }
