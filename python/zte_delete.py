@@ -9,7 +9,7 @@ port = input("Insira a porta de acesso da OLT (default: 23): ") or "23"
 # Endereços IP e seus respectivos nomes pré-definidos da OLT ZTE
 enderecos_ip = {
     "🖥  OLT ZTE PARAISO ➡": "172.31.188.2",
-    "🖥  OLT ZTE PALMEIRANDIA ➡": "172.31.249.2"
+    "🖥  OLT ZTE PALMEIRANDIA ➡": "172.31.239.2"
 }
 
 # Mostrar os endereços IP disponíveis
