@@ -68,7 +68,7 @@ tn.write(senha_enable.encode('ascii') + b"\n")
 # Executando o comando "show discovery slot all pon all"
 tn.write(b"cd onu\n")
 tn.write(b"show discovery slot all pon all\n")
-time.sleep(20)  # Aguardar tempo suficiente para o retorno ser obtido
+time.sleep(15)  # Aguardar tempo suficiente para o retorno ser obtido
 output = tn.read_very_eager().decode('ascii')
 print(output)
 
