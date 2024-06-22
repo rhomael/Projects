@@ -1,6 +1,5 @@
 import telnetlib
 import time
-import re
 
 # Solicitar ao usuário que insira as informações de login 🔑
 usuario = input("Insira o nome de usuário da OLT: ")
