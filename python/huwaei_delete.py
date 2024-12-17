@@ -11,6 +11,7 @@ port = input("Insira a porta de acesso da OLT (default: 23): ") or "23"
 #port = "4030"  # PORTA TELNET OLT COHAB
 #port = "4940"  # PORTA TELNET OLT ITAPECURU
 #port = "4950"  # PORTA TELNET OLT SANTA HELENA
+#port = "5050"  # PORTAL TELNET OLT TURIACU
 
 # Endereços IP e seus respectivos nomes pré-definidos da OLT Huawei
 enderecos_ip = {
@@ -19,7 +20,8 @@ enderecos_ip = {
     "🖥  OLT HUWAEI FIALHO ➡": "186.216.11.0",
     "🖥  OLT HUWAEI PINHEIRO ➡": "172.31.237.2",
     "🖥  OLT HUAWEI MIRINZAL ➡": "172.31.238.2",
-    "🖥  OLT HUWAEI SANTA HELENA ➡": "45.181.230.29"
+    "🖥  OLT HUWAEI SANTA HELENA ➡": "45.181.230.29",
+    "🖥  OLT HUWAEI TURIACU ➡": "186.216.45.254"
 }
 
 # Mostra os endereços IP disponíveis
