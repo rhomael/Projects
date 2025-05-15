@@ -88,7 +88,6 @@ async def main():
         print(output)
     finally:
         writer.close()
-        await writer.wait_closed()
 
     print("Provisionamento concluído 😎 ✅ ✅ ✅ ")
 
